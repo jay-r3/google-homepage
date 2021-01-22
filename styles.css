@@ -7,24 +7,44 @@ body {
     text-align: center;
 }
 
+#logo {
+    padding-top: 109px;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
-li {
+.header-left {
     float: left;
 }
 
-li a {
-    display: block;
+.header-left a {
+    display: inline-block;
     color: #000;
     opacity: 0.75;
     text-decoration: none;
     padding-left: 15px;
 }
 
-li a:hover {
+.header-left a:hover {
+    text-decoration: underline;
+}
+
+.header-right {
+    float: right;
+}
+
+.header-right a {
+    display: inline-block;
+    color: rgba(0,0,0,0.87);
+    opacity: 0.75;
+    text-decoration: none;
+    padding-left: 15px;
+}
+
+.header-right a:hover {
     text-decoration: underline;
 }
