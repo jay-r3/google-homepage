@@ -11,10 +11,8 @@ body {
     padding-top: 109px;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+.header {
+    padding-top: 1.15em;
 }
 
 .header-left {
@@ -27,6 +25,7 @@ ul {
     opacity: 0.75;
     text-decoration: none;
     padding-left: 15px;
+    vertical-align: middle;
 }
 
 .header-left a:hover {
@@ -35,6 +34,7 @@ ul {
 
 .header-right {
     float: right;
+    padding-right: 1.5em;
 }
 
 .header-right a {
@@ -43,8 +43,20 @@ ul {
     opacity: 0.75;
     text-decoration: none;
     padding-left: 15px;
+    vertical-align: middle;
 }
 
 .header-right a:hover {
     text-decoration: underline;
+}
+
+#google-account {
+    border-radius: 50%;
+    filter: contrast(200%);
+}
+
+#google-apps {
+    height: 25px;
+    width: 25px;
+    opacity: .55;
 }
